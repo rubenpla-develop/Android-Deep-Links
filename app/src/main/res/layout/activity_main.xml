@@ -15,6 +15,13 @@
     android:orientation="vertical"
 >
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enter deep link URI to activate"
+        android:id="@+id/textView" />
+
     <EditText
         android:id="@+id/location"
         android:layout_width="match_parent"
@@ -35,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/editText"
             android:layout_alignStart="@+id/editText"
-            android:text="Go To URL" />
+            android:text="Go To URI" />
 
         <TextView
             android:layout_width="wrap_content"
